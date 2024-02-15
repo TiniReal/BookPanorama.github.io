@@ -24,5 +24,5 @@ L'applicazione sfrutta le API del servizio esterno Open Library per recuperare i
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
-##Website
+## Website
 [LINK TO APP](https://tinireal.github.io/BookPanorama.github.io/)
