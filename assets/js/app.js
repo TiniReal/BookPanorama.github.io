@@ -1,4 +1,13 @@
-document.addEventListener("DOMContentLoaded", initApp);
+// Dichiarazione della funzione searchBooks nel contesto globale
+window.searchBooks = searchBooks;
+
+document.addEventListener("DOMContentLoaded", () => {
+    // Dichiarazione della funzione searchBooks
+    window.searchBooks = searchBooks;
+
+    // Altre operazioni di inizializzazione
+    initApp();
+});
 
 // Variabile per memorizzare l'ultima chiave del libro selezionato
 let lastSelectedBookKey = null;
