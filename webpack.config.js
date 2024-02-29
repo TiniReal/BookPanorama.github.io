@@ -7,11 +7,7 @@ module.exports = {
         filename: 'bundle.js',
         path: path.resolve(__dirname, 'dist'),
     },
-    devtool: 'source-map', // Aggiunta del devtool source-map
+    devtool: 'source-map', 
 };
-
-
-
-
 
 
